@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+
+  <title>JS4</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">JS4</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nMenu" aria-controls="nMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nMenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop all</a>
+          </li>
+        </ul>
+        
+          
+        <div class="shop-cart mx-5 dropdown">
+          <a href="#" class="d-flex flex-row dropdown-toggle mx-5" href="#" id="cartDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p id="cartPrice" class="mx-3">0</p>
+            <i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
+            </a>
+          <div class="dropdown-menu" aria-labelledby="cartDropdown">
+            <a class="dropdown-item" href="#" id="checkCart">Оформить заказ</a>
+            <a class="dropdown-item" href="#" id="clearCart">Очистить карзину</a>
+          </div>    
+        </div>
+               
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container mt-5">
+      <div class="card-deck d-flex flex-wrap">
+        <div class="card text-center" style="width: 15rem;">
+          <img class="card-img-top m-auto" src="img/L1.jpg" style="width: 9rem;" alt="Tissot COUTURIER QUARTZ GMT">
+          <div class="card-body ">
+            <h5 class="card-title item-title">Tissot COUTURIER QUARTZ GMT</h5>
+            <p class="card-text">Механизм кварцевый, корпус: нержавеющая сталь, 41 мм, сапфировое стекло, 100 м, браслет кожаный</p>
+            <h5 class="card-title item-price">30000 рублей</h5>
+            <a href="#" class="btn btn-primary" id="1">Купить</a>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 15rem;">
+            <img class="card-img-top m-auto" src="img/L2.jpg" style="width: 9rem;" alt="Casio EFR-526D-1A">
+          <div class="card-body ">
+            <h5 class="card-title item-title">Casio EFR-526D-1A</h5>
+            <p class="card-text">Механизм кварцевый, корпус: нержавеющая сталь, 43.8 мм, минеральное стекло, 100 м, браслет металлический</p>
+            <h5 class="card-title item-price">7000 рублей</h5>
+            <a href="#" class="btn btn-primary" id="2">Купить</a>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 15rem;">
+          <img class="card-img-top m-auto" src="img/L3.jpg" style="width: 9rem;" alt="Casio EFR-526D-1A">
+          <div class="card-body ">
+            <h5 class="card-title item-title">Casio EF-547D-1A1</h5>
+            <p class="card-text">Механизм кварцевый, корпус: нержавеющая сталь, 52.5 мм, минеральное стекло, 100 м, браслет металлический</p>
+            <h5 class="card-title item-price">7900 рублей</h5>
+            <a href="#" class="btn btn-primary" id="3">Купить</a>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 15rem;">
+          <img class="card-img-top m-auto" src="img/L4.jpg" style="width: 9rem;" alt="Casio EFR-526D-1A">
+          <div class="card-body ">
+            <h5 class="card-title item-title">Casio EFR-526L-1A</h5>
+            <p class="card-text">Механизм кварцевый, корпус: нержавеющая сталь, 43.8 мм, минеральное стекло, 100 м, браслет кожаный</p>
+            <h5 class="card-title item-price">6700 рублей</h5>
+            <a href="#" class="btn btn-primary" id="4">Купить</a>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  </main>
+  <footer>
+    <div class="container py-3 mt-5">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email адрес</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Пароль</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Сохранить</label>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Напиши нам</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>  
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+      
+</body>
+</html>

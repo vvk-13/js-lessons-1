@@ -1,0 +1,25 @@
+.desk {
+	margin: auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+table td {
+	border: 1px solid black;
+}
+
+.cell {
+	height: 50px;
+	width: 50px;
+	background: #ECBC92;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+  background-color: #562F06;
+}
+table tr:nth-child(odd) td:nth-child(even) {
+  background-color:  #562F06;
+}
+
+.LeftNum, .RightNum, .letters {
+	background: #E4E4E4 !important;
+}

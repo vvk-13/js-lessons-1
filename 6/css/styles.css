@@ -1,0 +1,40 @@
+body {
+	margin: 0 auto;
+	text-align:center;
+}
+
+p {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#previous{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+#next{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.slider img {
+	width: 20%;
+
+}
+
+.slider2 {
+	position: relative;
+	width: 20%;
+}
+
+.slide {
+	position: absolute;
+	z-index: 1;
+}
+
+.show {
+	z-index: 2;
+}
